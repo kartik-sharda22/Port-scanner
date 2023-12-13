@@ -10,7 +10,18 @@ if len(sys.argv) == 2:
 else:
 	print("Invalid amount of arguments")
 	print("Syntax: python3 port_scanner.py <ip>")
-
+	
+#Add ASCII art
+print('''
+  _____   ____  _____ _______    _____  _____          _   _ _   _ ______ _____   
+ |  __ \ / __ \|  __ \__   __|  / ____|/ ____|   /\   | \ | | \ | |  ____|  __ \  
+ | |__) | |  | | |__) | | |    | (___ | |       /  \  |  \| |  \| | |__  | |__) | 
+ |  ___/| |  | |  _  /  | |     \___ \| |      / /\ \ | . ` | . ` |  __| |  _  /  
+ | |    | |__| | | \ \  | |     ____) | |____ / ____ \| |\  | |\  | |____| | \ \  
+ |_|     \____/|_|  \_\ |_|    |_____/ \_____/_/    \_\_| \_|_| \_|______|_|  \_\ 
+                                                                                  
+                                                                                  ''')
+print("Target IP: " + target)
 #Add a pretty banner
 print("-" * 50)
 print("Scanning target: "+target)

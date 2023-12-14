@@ -48,7 +48,7 @@ def scan_port(port):
         sys.exit()
 
     except socket.error:
-        print("Could no connect to the server.")
+        print("Could not connect to the server.")
         sys.exit()
 
 try:
